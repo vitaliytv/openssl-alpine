@@ -32,7 +32,7 @@ docker run \
   -e ISSUER_NAME="tolkien" \
   -e PUBLIC_NAME="hobbit" \
   -v hobbit:/etc/ssl/certs \
-  pgarrett/openssl-alpine
+  vitaliytv/openssl-alpine
 ```
 
 List the generated certificates:
