@@ -1,13 +1,5 @@
 # OpenSSL Alpine
 
-## Verify certificate
-
-Run docker container then view the generated public certificate:
-
-```
-make verify
-```
-
 ## Customisation
 
 Override the following environment variables when running the docker container to customise the generated certificate:
