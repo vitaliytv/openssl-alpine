@@ -22,6 +22,5 @@ RUN apk add --update openssl && \
 ENV CERT_DIR "/etc/ssl/certs"
 VOLUME ["$CERT_DIR"]
 
-COPY *.ext /
 COPY entrypoint.sh /
 ENTRYPOINT ["/entrypoint.sh"]
